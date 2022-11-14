@@ -18,7 +18,7 @@ public class GestionUsuarios {
         ArrayList<User> users = new ArrayList<User>();
         users.add(new User("juan", "juan@juan.com", "asdf"));
         users.add(new User("mierdon", "mierdon@juan.com", "12345"));
-        users.add(new User("", "juan@juan.com", "asdf"));
+        users.add(new User("juan2", "juan2@juan2.com", "1234"));
    
         users.size();
         

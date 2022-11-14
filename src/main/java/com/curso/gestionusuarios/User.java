@@ -30,15 +30,34 @@ public class User {
     public String getName(){
         return this.name;
     }
+    public String getPassword(){
+        return this.password;
+    }
     
-    public void modifyEmail(String email){
+    public String getSecurityQuestion() {
+        return securityQuestion;
+    }
+    public String getSecurityAnswer() {
+        return securityAnswer;
+    }
+
+    
+    public void setEmail(String email){
         this.email = email;
     }
     
-    public void modifyName(String name){
+    public void setyName(String name){
         this.name = name;
     }   
-    public void modifyPassword (String pass){
+    public void setPassword (String pass){
         this.password = pass;
     }   
+    public void setSecurityQuestion(String securityQuestion) {
+        this.securityQuestion = securityQuestion;
+    }
+    public void setSecurityAnswer(String securityAnswer) {
+        this.securityAnswer = securityAnswer;
+    }
+    
+    
 }
